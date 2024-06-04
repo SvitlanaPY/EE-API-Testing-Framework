@@ -1,7 +1,8 @@
 import pytest
 import requests
+from lib.base_case import BaseCase
 
-class TestCity:
+class TestCity(BaseCase):
     parametersList = [
         ("07450","Ridgewood","NJ"),
         ("77450","Katy","TX"),
@@ -19,11 +20,13 @@ class TestCity:
         response = requests.get("https://ee-api-sage.staging.inscyth.com/zip-code/city", params={'zipCode': Zip_Code}, headers=self.headers_)
 
         assert response.status_code == 200, 'Wrong status code'
-        assert 'city' in response.json(), "There is no city_parameter returned"
-        actual_city = response.json()['city']
-        assert actual_city == expected_city, 'Actual city_parameter is INcorrect'
 
-        assert response.status_code == 200, 'Wrong status code'
-        assert 'state' in response.json(), "There is no state_parameter returned"
-        actual_state = response.json()['state']
-        assert actual_state == expected_state, 'Actual state_parameter is INcorrect'
+        # assert 'city' in response.json(), "There is no city_parameter returned"
+        # actual_city = response.json()['city']
+        self.actual_city = self.get_json_value(response, "city")
+        assert self.actual_city == expected_city, 'Actual city_parameter is INcorrect'
+
+        # assert response.status_code == 200, 'Wrong status code'
+        # assert 'state' in response.json(), "There is no state_parameter returned"
+        self.actual_state = self.get_json_value(response, "state")
+        assert self.actual_state == expected_state, 'Actual state_parameter is INcorrect'

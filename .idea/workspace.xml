@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed483dc-9913-4e6d-b338-10a355d00fb4" name="Changes" comment="&quot;/zip-code/city test&quot;">
-      <change afterPath="$PROJECT_DIR$/EE_stores.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_stores.py" afterDir="false" />
+    <list default="true" id="0ed483dc-9913-4e6d-b338-10a355d00fb4" name="Changes" comment="&quot;first tests&quot;">
+      <change afterPath="$PROJECT_DIR$/lib/base_case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_city.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_city.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,30 +24,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2hKqYkJH3uIhUGTcnvh3pqawkmu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_city.TestCookie.executor": "Run",
-    "Python tests.Python tests for test_city.TestCookie.test_check_cookie_passed.executor": "Run",
-    "Python tests.Python tests for test_city.TestCookie.test_city.executor": "Run",
-    "Python tests.Python tests for test_stores.TestStores.executor": "Run",
-    "Python tests.Python tests in test_city.py.executor": "Run",
-    "Python tests.Python tests in test_stores.py.executor": "Run",
-    "Python.EE_stores.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/EE API Testing Framework/tests"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_city.TestCookie.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_city.TestCookie.test_check_cookie_passed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_city.TestCookie.test_city.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_stores.TestStores.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_city.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_stores.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EE_stores.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/EE API Testing Framework/tests&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\EE API Testing Framework\tests" />
@@ -171,12 +171,37 @@
       <option name="project" value="LOCAL" />
       <updated>1717360626188</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;first tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717361251468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717361251468</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;first tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717361258307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717361258307</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;first tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717520083854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717520083854</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;new project&quot;" />
     <MESSAGE value="&quot;/zip-code/city test&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;/zip-code/city test&quot;" />
+    <MESSAGE value="&quot;first tests&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;first tests&quot;" />
   </component>
 </project>
