@@ -27,6 +27,7 @@ class TestCity(BaseCase):
         #     "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjI5MTEsImlhdCI6MTY5ODg1NTM5NywibmJmIjoxNjk4ODU1Mzk3LCJleHAiOjE3MzAzOTEzOTd9.A8ns_cKXjPHcMupLeJddePhdkYhwStzmuwYSgwdG5FY"}
         response = requests.get("https://ee-api-sage.staging.inscyth.com/zip-code/city", params={'zipCode': Zip_Code}, headers=self.headers_)
         assert response.status_code == 200, 'Wrong status code'
+
         # assert 'city' in response.json(), "There is no city_parameter returned"
         # actual_city = response.json()['city']
         self.actual_city = self.get_json_value(response, "city")
