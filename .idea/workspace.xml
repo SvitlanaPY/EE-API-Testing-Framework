@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed483dc-9913-4e6d-b338-10a355d00fb4" name="Changes" comment="&quot;tests&quot;">
+    <list default="true" id="0ed483dc-9913-4e6d-b338-10a355d00fb4" name="Changes" comment="&quot;EE tests&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_city.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_zipCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_stores.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_stores.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
     "Python tests.Python tests for test_city.TestCookie.test_check_cookie_passed.executor": "Run",
     "Python tests.Python tests for test_city.TestCookie.test_city.executor": "Run",
     "Python tests.Python tests for test_stores.TestStores.executor": "Run",
+    "Python tests.Python tests for test_stores.TestStores.test_get_five_stores.executor": "Run",
     "Python tests.Python tests for test_zipCode.TestCity.executor": "Run",
     "Python tests.Python tests for test_zipCode.TestCity.test_zipCode.executor": "Run",
     "Python tests.Python tests in test_city.py.executor": "Run",
@@ -48,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/EE API Testing Framework/tests"
+    "last_opened_file_path": "D:/AutomationPython/Python_tasks"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,8 +57,8 @@
       <recent name="D:\EE API Testing Framework\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_zipCode.TestCity.test_zipCode">
-    <configuration name="Python tests for test_zipCode.TestCity" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_stores.py">
+    <configuration name="Python tests for test_stores.TestStores" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="EE API Testing Framework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +69,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_zipCode.TestCity&quot;" />
+      <option name="_new_target" value="&quot;test_stores.TestStores&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_stores.TestStores.test_get_five_stores" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="EE API Testing Framework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_stores.TestStores.test_get_five_stores&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -84,21 +100,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_zipCode.TestCity.test_zipCode&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.test_zipCode_city.TestCity" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="EE API Testing Framework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_zipCode_city.TestCity&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_stores.py" />
+        <item itemvalue="Python tests.Python tests for test_stores.TestStores.test_get_five_stores" />
+        <item itemvalue="Python tests.Python tests for test_stores.TestStores" />
         <item itemvalue="Python tests.Python tests for test_zipCode.TestCity.test_zipCode" />
         <item itemvalue="Python tests.Python tests in test_zipCode.py" />
-        <item itemvalue="Python tests.Python tests for test_zipCode.TestCity" />
-        <item itemvalue="Python tests.Python tests for tests.test_zipCode_city.TestCity" />
-        <item itemvalue="Python tests.Python tests in test_stores.py" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +223,63 @@
       <option name="project" value="LOCAL" />
       <updated>1717524841276</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717527288205</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717527288205</updated>
+    </task>
+    <task id="LOCAL-00010" summary="&quot;tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717527305443</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717527305444</updated>
+    </task>
+    <task id="LOCAL-00011" summary="&quot;EE tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717527315301</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717527315301</updated>
+    </task>
+    <task id="LOCAL-00012" summary="&quot;EE tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717936693019</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717936693019</updated>
+    </task>
+    <task id="LOCAL-00013" summary="&quot;EE tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717936793862</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717936793862</updated>
+    </task>
+    <task id="LOCAL-00014" summary="&quot;EE tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717936890339</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717936890339</updated>
+    </task>
+    <task id="LOCAL-00015" summary="&quot;EE tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717942352546</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717942352546</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,6 +287,7 @@
     <MESSAGE value="&quot;/zip-code/city test&quot;" />
     <MESSAGE value="&quot;first tests&quot;" />
     <MESSAGE value="&quot;tests&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;tests&quot;" />
+    <MESSAGE value="&quot;EE tests&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;EE tests&quot;" />
   </component>
 </project>

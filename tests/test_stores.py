@@ -2,7 +2,7 @@ import pytest
 import requests
 
 class TestStores:
-    parametersList = [
+    parametersList1 = [
         ("07450"),
         ("77450"),
         ("47025")
@@ -17,7 +17,7 @@ class TestStores:
             "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjI5MTEsImlhdCI6MTY5ODg1NTM5NywibmJmIjoxNjk4ODU1Mzk3LCJleHAiOjE3MzAzOTEzOTd9.A8ns_cKXjPHcMupLeJddePhdkYhwStzmuwYSgwdG5FY"
         }
 
-    @pytest.mark.parametrize('Zip_Code', parametersList)
+    @pytest.mark.parametrize('Zip_Code', parametersList1)
     def test_get_five_stores(self, Zip_Code):
         response = requests.get("https://ee-api-sage.staging.inscyth.com/stores", params={'ZipCode': Zip_Code}, headers=self.headers_)
         assert response.status_code == 200, 'Wrong status code'
