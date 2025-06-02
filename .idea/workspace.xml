@@ -32,34 +32,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_city.TestCity.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_city.TestCookie.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_city.TestCookie.test_check_cookie_passed.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_city.TestCookie.test_city.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stores.TestStores.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stores.TestStores.test_get_five_stores.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stores.TestStores.test_storesQty_byStoreId.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_zipCode.TestCity.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_zipCode.TestCity.test_zipCode.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_city.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_stores.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_zipCode.py.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EE_stores.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AutomationAPI/PythonAPI_Framework&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_city.TestCity.executor": "Run",
+    "Python tests.Python tests for test_city.TestCookie.executor": "Run",
+    "Python tests.Python tests for test_city.TestCookie.test_check_cookie_passed.executor": "Run",
+    "Python tests.Python tests for test_city.TestCookie.test_city.executor": "Run",
+    "Python tests.Python tests for test_stores.TestStores.executor": "Run",
+    "Python tests.Python tests for test_stores.TestStores.test_get_five_stores.executor": "Run",
+    "Python tests.Python tests for test_stores.TestStores.test_storesQty_byStoreId.executor": "Run",
+    "Python tests.Python tests for test_zipCode.TestCity.executor": "Run",
+    "Python tests.Python tests for test_zipCode.TestCity.test_zipCode.executor": "Run",
+    "Python tests.Python tests for test_zipCode.TestZipCode.test_zipCode.executor": "Debug",
+    "Python tests.Python tests in test_city.py.executor": "Run",
+    "Python tests.Python tests in test_stores.py.executor": "Run",
+    "Python tests.Python tests in test_zipCode.py.executor": "Debug",
+    "Python tests.Python tests in tests.executor": "Run",
+    "Python.EE_stores.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/AutomationAPI/PythonAPI_Framework"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\EE API Testing Framework\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in tests">
+  <component name="RunManager" selected="Python tests.Python tests for test_zipCode.TestZipCode.test_zipCode">
     <configuration name="Python tests for test_stores.TestStores.test_storesQty_byStoreId" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="EE API Testing Framework" />
       <option name="ENV_FILES" value="" />
@@ -75,6 +76,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_zipCode.TestZipCode.test_zipCode" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="EE API Testing Framework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_zipCode.TestZipCode.test_zipCode&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.stores_old.TestStores" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="EE API Testing Framework" />
       <option name="ENV_FILES" value="" />
@@ -87,21 +103,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.stores_old.TestStores&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.stores_old.TestStores.test_get_five_stores" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="EE API Testing Framework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.stores_old.TestStores.test_get_five_stores&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_zipCode.TestZipCode.test_zipCode" />
         <item itemvalue="Python tests.Python tests in tests" />
         <item itemvalue="Python tests.Python tests for test_stores.TestStores.test_storesQty_byStoreId" />
         <item itemvalue="Python tests.Python tests for tests.stores_old.TestStores" />
         <item itemvalue="Python tests.Python tests in stores_old.py" />
-        <item itemvalue="Python tests.Python tests for tests.stores_old.TestStores.test_get_five_stores" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748899625195</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&quot;EE API tests&quot;">
+      <option name="closed" value="true" />
+      <created>1748899908818</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1748899908818</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -340,5 +349,16 @@
     <MESSAGE value="&quot;EE tests&quot;" />
     <MESSAGE value="&quot;EE API tests&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;EE API tests&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_zipCode.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
