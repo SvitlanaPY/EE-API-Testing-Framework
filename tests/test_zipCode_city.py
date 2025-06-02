@@ -3,7 +3,7 @@ import requests
 from lib.base_case import BaseCase
 
 class TestCity():
-    url = 'https://fd.staging.inscyth.com/api/zip-code/city'
+    retailer_url = 'https://fd.staging.inscyth.com/api/zip-code/city'
     parametersList = [
         ("07450","Ridgewood","NJ"),
         ("77450","Katy","TX"),
@@ -23,7 +23,7 @@ class TestCity():
     #     }
     @pytest.mark.parametrize('ZIP_Code, expected_city, expected_state', parametersList)
     def test_city(self, ZIP_Code, expected_city, expected_state):
-        response = requests.get(self.url, params={'zipCode': ZIP_Code})
+        response = requests.get(self.retailer_url, params={'zipCode': ZIP_Code})
         assert response.status_code == 200, 'Wrong status code'
 
         assert 'city' in response.json(), "There is no city_parameter returned"
@@ -39,6 +39,6 @@ class TestCity():
 
     @pytest.mark.parametrize('ZIP_Code', parametersListNegative)
     def test_city_negative(self, ZIP_Code):
-        response = requests.get(self.url, params={'zipCode': ZIP_Code})
+        response = requests.get(self.retailer_url, params={'zipCode': ZIP_Code})
         assert response.status_code == 404, 'Wrong status code'
 
