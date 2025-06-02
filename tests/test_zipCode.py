@@ -17,5 +17,7 @@ class TestZipCode():
         url = 'https://fd.staging.inscyth.com/api/zip-code'
         response = requests.get(url, params={'latitude': lat, 'longitude': long})
         assert response.status_code == 200, 'Wrong status code'
-        self.actual_zipCode = response.text
-        assert self.actual_zipCode == expected_zipCode, 'Actual zipCode_parameter is INcorrect'
+
+        actual_zipCode = response.text
+        assert actual_zipCode == expected_zipCode, 'Actual zipCode_parameter is INcorrect'
+

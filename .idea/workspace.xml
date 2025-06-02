@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ed483dc-9913-4e6d-b338-10a355d00fb4" name="Changes" comment="&quot;EE API tests&quot;">
-      <change afterPath="$PROJECT_DIR$/lib/my_requests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_stores.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_stores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_stores_old.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/stores_old.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_zipCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_zipCode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_zipCode_city.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_zipCode_city.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_zipCode_city_Assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/zipCode_city_Assertions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748896691233</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="&quot;EE API tests&quot;">
+      <option name="closed" value="true" />
+      <created>1748899625195</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1748899625195</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
