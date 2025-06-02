@@ -3,12 +3,13 @@ import requests
 from lib.base_case import BaseCase
 from lib.assertion import Assertions
 
+
 class TestCity(BaseCase):
     parametersList = [
-        ("07450","Ridgewood","NJ"),
-        ("77450","Katy","TX"),
-        ("47025","Lawrenceburg","IN"),
-        ("9255700","Moreno Valley","CA")
+        ("07450", "Ridgewood", "NJ"),
+        ("77450", "Katy", "TX"),
+        ("47025", "Lawrenceburg", "IN"),
+        ("9255700", "Moreno Valley", "CA")
     ]
     parametersListNegative = [
         ("35001"),
@@ -17,6 +18,7 @@ class TestCity(BaseCase):
         ("")
         # ("77450")  # щоб негативний тест не пройшов
     ]
+
     def setup_method(self):
         self.headers_ = {
             "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjI5MTEsImlhdCI6MTY5ODg1NTM5NywibmJmIjoxNjk4ODU1Mzk3LCJleHAiOjE3MzAzOTEzOTd9.A8ns_cKXjPHcMupLeJddePhdkYhwStzmuwYSgwdG5FY"

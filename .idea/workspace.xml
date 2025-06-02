@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ed483dc-9913-4e6d-b338-10a355d00fb4" name="Changes" comment="&quot;EE tests&quot;">
+      <change afterPath="$PROJECT_DIR$/lib/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_stores_old.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/base_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/base_case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_stores.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_stores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_zipCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_zipCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_zipCode_city.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_zipCode_city.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_zipCode_city_A.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_zipCode_city_Assertions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,62 +38,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_city.TestCity.executor": "Run",
-    "Python tests.Python tests for test_city.TestCookie.executor": "Run",
-    "Python tests.Python tests for test_city.TestCookie.test_check_cookie_passed.executor": "Run",
-    "Python tests.Python tests for test_city.TestCookie.test_city.executor": "Run",
-    "Python tests.Python tests for test_stores.TestStores.executor": "Run",
-    "Python tests.Python tests for test_stores.TestStores.test_get_five_stores.executor": "Run",
-    "Python tests.Python tests for test_zipCode.TestCity.executor": "Run",
-    "Python tests.Python tests for test_zipCode.TestCity.test_zipCode.executor": "Run",
-    "Python tests.Python tests in test_city.py.executor": "Run",
-    "Python tests.Python tests in test_stores.py.executor": "Run",
-    "Python tests.Python tests in test_zipCode.py.executor": "Debug",
-    "Python.EE_stores.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/AutomationPython/Python_tasks"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_city.TestCity.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_city.TestCookie.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_city.TestCookie.test_check_cookie_passed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_city.TestCookie.test_city.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_stores.TestStores.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_stores.TestStores.test_get_five_stores.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_zipCode.TestCity.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_zipCode.TestCity.test_zipCode.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_city.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_stores.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_zipCode.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.EE_stores.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AutomationAPI/PythonAPI_Framework&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\EE API Testing Framework\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_stores.py">
-    <configuration name="Python tests for test_stores.TestStores" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="EE API Testing Framework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stores.TestStores&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_stores.TestStores.test_get_five_stores" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="EE API Testing Framework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stores.TestStores.test_get_five_stores&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_stores_old.TestStores">
     <configuration name="Python tests for test_zipCode.TestCity.test_zipCode" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="EE API Testing Framework" />
       <option name="ENV_FILES" value="" />
@@ -103,7 +79,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_stores.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_stores_old.TestStores" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="EE API Testing Framework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,7 +90,37 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_stores.py&quot;" />
+      <option name="_new_target" value="&quot;tests.test_stores_old.TestStores&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_stores_old.TestStores.test_get_five_stores" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="EE API Testing Framework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_stores_old.TestStores.test_get_five_stores&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_stores_old.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="EE API Testing Framework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_stores_old.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -135,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_stores.py" />
-        <item itemvalue="Python tests.Python tests for test_stores.TestStores.test_get_five_stores" />
-        <item itemvalue="Python tests.Python tests for test_stores.TestStores" />
+        <item itemvalue="Python tests.Python tests for tests.test_stores_old.TestStores" />
+        <item itemvalue="Python tests.Python tests in test_stores_old.py" />
+        <item itemvalue="Python tests.Python tests for tests.test_stores_old.TestStores.test_get_five_stores" />
         <item itemvalue="Python tests.Python tests for test_zipCode.TestCity.test_zipCode" />
         <item itemvalue="Python tests.Python tests in test_zipCode.py" />
       </list>
@@ -287,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717942400484</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="&quot;EE tests&quot;">
+      <option name="closed" value="true" />
+      <created>1717942696783</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717942696783</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
