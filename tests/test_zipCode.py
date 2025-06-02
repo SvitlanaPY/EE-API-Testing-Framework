@@ -2,7 +2,7 @@ import pytest
 import requests
 # from lib.base_case import BaseCase
 
-class TestZipCode(BaseCase):
+class TestZipCode():
     parametersList = [
         ("39.182648106851005", "-84.8552564674385", "47025"),
         ("29.7654421122147", "-95.74277876137626", "77450")

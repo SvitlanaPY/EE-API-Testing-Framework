@@ -1,6 +1,7 @@
 import datetime
 import os
 import requests
+from requests import Response
 
 
 class Logger:
