@@ -2,8 +2,8 @@ import pytest
 import requests
 
 class TestStores:
-    storesMaxQty_Parameters = [('https://fd.staging.inscyth.com/api/stores','07450', 6),('https://lowes.staging.inscyth.com/api/stores','07450', 5)]
-    storesQty_byStoreId_Parameters = [('https://fd.staging.inscyth.com/api/stores','07450', 22788)]
+    storesMaxQty_Parameters = [('https://fd.staging.inscyth.com/api/stores', '07450', 6), ('https://lowes.staging.inscyth.com/api/stores', '07450', 5)]
+    storesQty_byStoreId_Parameters = [('https://fd.staging.inscyth.com/api/stores', '07450', 22788)]
 
     @pytest.mark.parametrize('retailer_url, ZIP_Code, StoresQty', storesMaxQty_Parameters)
     def test_storesMaxQty(self, retailer_url, ZIP_Code, StoresQty):
